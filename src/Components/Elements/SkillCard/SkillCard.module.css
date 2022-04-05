@@ -1,0 +1,33 @@
+.container {
+  background: #13131d;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid lightyellow;
+}
+
+.image {
+  width: 6em;
+  filter: invert(1);
+  margin-left: 1em;
+  align-self: flex-start;
+}
+
+.title {
+  color: lightyellow;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  min-height: 65px;
+}
+
+.container:hover {
+  background: #7562E0;
+  cursor: pointer;
+}
+
+.container:hover .title{
+  color: #13131d;
+}

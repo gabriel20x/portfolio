@@ -1,0 +1,30 @@
+.container {
+    align-self: center;
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    color: #7562E0;
+    text-shadow: 2px 2px #000055;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.nav a {
+    margin: 1rem 0;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: lightyellow;
+    position: relative;
+}
+
+.active{
+    color: #7562E0;
+}

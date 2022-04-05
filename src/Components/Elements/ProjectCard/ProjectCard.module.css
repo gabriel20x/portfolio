@@ -1,0 +1,45 @@
+.container {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 270px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid lightyellow;
+  align-items: center;
+  position: relative;
+}
+
+.info {
+  background: #13131d;
+  position: absolute;
+  bottom: -30px;
+  left: 100px;
+  width: 270px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.image {
+  width: 6em;
+  /*filter: invert(1);*/
+  /*margin-left: 1em;*/
+  align-self: flex-start;
+}
+
+.title {
+  color: lightyellow;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: lightyellow;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.text {
+  color: lightyellow;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+}

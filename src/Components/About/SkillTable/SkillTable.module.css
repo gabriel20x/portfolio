@@ -1,0 +1,59 @@
+.container {
+  margin-top: 4rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.tabs img {
+  max-height: 40px;
+  filter: invert(1);
+}
+
+.tabs div {
+  width: 4em;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.7vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.tabs div:hover {
+  cursor: pointer;
+}
+
+.info {
+  background: #13131d;
+  height: 70vh;
+  width: auto;
+}
+
+.selected {
+  background: #13131d;
+  position: relative;
+}
+
+.selected::before{
+  position: absolute;
+  bottom: -1.5rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.academy::before {
+  content: "Academies";
+}
+.technical::before {
+  content: "Technical";
+}
+.soft::before {
+  content: "Soft";
+}
+.hobbies::before {
+  content: "Hobbies";
+}

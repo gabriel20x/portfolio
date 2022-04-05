@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.social-container {
+  max-width: 40%;
+  min-width: 200px;
+  color: lightyellow;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.social {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  min-width: 300px;
+  max-width: 40%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #13131d;
+  color: lightyellow;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.input input, .input textarea {
+  min-width: 300px;
+  background: #13131d;
+  border: none;
+  color: lightyellow !important;
+  font-size: 16px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #13131d;
+  padding: 10px;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.icon img {
+  height: inherit;
+  filter: invert(1);
+}
+
+/*Autofill background*/
+.input input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 30px #13131d inset !important;
+  -webkit-text-fill-color: lightyellow;
+  border: none;
+  font-size: 16px;
+}
