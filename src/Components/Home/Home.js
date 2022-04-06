@@ -1,5 +1,5 @@
 import style from './home.module.css'
-import photo from './Gabriel_perfil.png'
+import photo from "../../Images/perfil.png"
 import Button from "../Elements/Button/Button";
 
 export default function Home() {
